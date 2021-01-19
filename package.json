@@ -1,0 +1,19 @@
+{
+  "name": "bridge",
+  "version": "0.0.1",
+  "description": "bridge document",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "doc",
+    "bridge"
+  ],
+  "author": "hugo",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
