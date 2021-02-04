@@ -4,7 +4,7 @@
 
 If you have already installed it, you can skip this step
 
-* Download Installer [Mac](https://github.com/sdkbox/storage/blob/master/sdkboxcools/sdkboxc?raw=true) , [Windows](https://github.com/sdkbox/storage/blob/master/sdkboxcools/sdkboxc.exe?raw=true)
+* Download Installer [Mac](https://github.com/sdkbox/storage/blob/master/sbc/sbc?raw=true) , [Windows](https://github.com/sdkbox/storage/blob/master/sbc/sbc.exe?raw=true)
 
 * Run in console
 
