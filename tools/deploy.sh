@@ -2,10 +2,9 @@
 
 set -e
 
-ACCESS_TOKEN=$1
+# ACCESS_TOKEN=$1
 
 echo $ACCESS_TOKEN
-echo $GITHUB_WORKSPACE
 
 # vuepress dist folder
 cd $GITHUB_WORKSPACE/docs/.vuepress/dist
