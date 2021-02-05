@@ -18,5 +18,5 @@ jobs:
         run: npm run docs:build
 
       - name: deploy to gh-pages
-        run: tools/deploy.sh ${{secrets.ACCESS_TOKEN}}
+        run: tools/deploy.sh ${{ secrets.ACCESS_TOKEN }}
 
