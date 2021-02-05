@@ -20,5 +20,5 @@ jobs:
       - name: deploy to gh-pages
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: tools/deploy.sh
+        run: tools/deploy.sh $ACCESS_TOKEN
 

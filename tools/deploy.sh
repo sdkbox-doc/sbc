@@ -2,6 +2,8 @@
 
 set -e
 
+ACCESS_TOKEN=$1
+
 echo $ACCESS_TOKEN
 echo $GITHUB_WORKSPACE
 
