@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
+set -e
+
 ACCESS_TOKEN=$1
+
+echo $ACCESS_TOKEN
 
 # vuepress dist folder
 cd $GITHUB_WORKSPACE/docs/.vuepress/dist
