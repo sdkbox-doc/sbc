@@ -3,13 +3,14 @@
 set -e
 
 echo $ACCESS_TOKEN
+echo $GITHUB_WORKSPACE
 
 # vuepress dist folder
 cd $GITHUB_WORKSPACE/docs/.vuepress/dist
 
 git init
-git config user.name "HugoHuang"
-git config user.email "hugohuang1111@gmail.com"
+git config user.name "HugoHuang" --local
+git config user.email "hugohuang1111@gmail.com" --local
 
 # Generate a CNAME file
 # echo $CNAME > CNAME
