@@ -12,10 +12,10 @@ git config user.email "hugohuang1111@gmail.com" --local
 # Generate a CNAME file
 # echo $CNAME > CNAME
 
-# DEPLOY_REPO="https://${ACCESS_TOKEN}@github.com/sdkbox-doc/sbc-doc.git"
-DEPLOY_REPO="https://github.com/sdkbox-doc/sbc-doc.git"
+DEPLOY_REPO="https://${ACCESS_TOKEN}@github.com/sdkbox-doc/sbc-doc.git"
+# DEPLOY_REPO="https://github.com/sdkbox-doc/sbc-doc.git"
 
-git checkout -b gh-pages
+git branch -m gh-pages
 git add .
 git commit -m "Deploy"
 git push --force $DEPLOY_REPO gh-pages
