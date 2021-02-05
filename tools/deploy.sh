@@ -12,7 +12,7 @@ git config user.email "hugohuang1111@gmail.com"
 # Generate a CNAME file
 # echo $CNAME > CNAME
 
-DEPLOY_REPO="https://${ACCESS_TOKEN}@github.com/sbc-doc.git"
+DEPLOY_REPO="https://${ACCESS_TOKEN}@github.com/sdkbox-doc/sbc-doc.git"
 
 git add .
 git commit -m "Deploy"
