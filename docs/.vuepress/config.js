@@ -11,6 +11,7 @@ module.exports = {
             description: '游戏插件分享平台'
         },
     },
+    base: '/sbc/',
     themeConfig: {
         // logo: '/assets/img/logo.png',
         locales: {

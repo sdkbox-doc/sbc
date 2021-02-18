@@ -9,22 +9,22 @@
 * 在命令行中运行它
 
 ```bash
-sdkboxc install
+sbc install
 ```
 
 ```bash
-sdkboxc.exe install
+sbc.exe install
 ```
 * 更新索引仓库
 
 ```bash
-sdkboxc update
+sbc update
 ```
 
 ## 安装插件
 
 ```bash
-sdkboxc import appslfyer --project=path/to/your/project
+sbc import appslfyer --project=path/to/your/project
 ```
 这条命令运行完, 就已经把插件安装到你的工程中了.
 

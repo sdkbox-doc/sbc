@@ -16,5 +16,5 @@ footer: Copyright © 2020-present SDKBox
 
 ``` bash
 # 安装
-sdkboxc import appsflyer
+sbc import appsflyer
 ```

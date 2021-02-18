@@ -11,25 +11,25 @@ If you have already installed it, you can skip this step
 Mac:
 
 ```bash
-sdkboxc install
+sbc install
 ```
 
 Windows:
 
 ```bash
-sdkboxc.exe install
+sbc.exe install
 ```
 
 * Update index repo
 
 ```bash
-sdkboxc update
+sbc update
 ```
 
 ## Import Plugin
 
 ```bash
-sdkboxc import appslfyer --project=path/to/your/project
+sbc import appslfyer --project=path/to/your/project
 ```
 
 then the plugin (in this case, is appsflyer) has been installed to your project.

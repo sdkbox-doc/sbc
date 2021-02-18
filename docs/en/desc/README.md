@@ -31,4 +31,4 @@ As can be seen from the figure, the custom plug-in is composed of three parts.
 
 ### Installer Side
 
-a dependency manager for game project. named `sdkboxc` . used to import/update plugin.
+a dependency manager for game project. named `sbc` . used to import/update plugin.
